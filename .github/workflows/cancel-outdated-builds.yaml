@@ -20,6 +20,7 @@ on:
   workflow_run:
     workflows:
       - CI AND IT
+      - E2E
     types: ['requested']
 
 jobs:
