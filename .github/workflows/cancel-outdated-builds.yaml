@@ -18,6 +18,8 @@ name: Cancel Outdated Builds
 
 on:
   workflow_run:
+    workflows:
+      - CI AND IT
     types: ['requested']
 
 jobs:
